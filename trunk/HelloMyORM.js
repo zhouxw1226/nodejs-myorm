@@ -12,7 +12,7 @@ function test(_sessionid){
 	myORM.transaction(_sessionid, function(sessionid, worker) {
 		var mapper = myORM.getMapper('customer'); // 获取注册过的映射类
 		// find
-		mapper.find(1, sessionid, function(err, object){ // 查找id=11415的记录
+		mapper.find(11415, sessionid, function(err, object){ // 查找id=11415的记录
 			console.log('####  find.object:'+object.get('PHONE')+','+object.get('NAME')+','
 				+object.get('ADDRESS')+','+object.version+','+object.id);
 			// update
