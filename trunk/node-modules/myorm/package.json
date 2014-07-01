@@ -1,0 +1,55 @@
+{
+  "_id": "myorm@1.0",
+  "name": "myorm",
+  "description": "Test myorm",
+  "homepage": "https://suddenzhou.com/nodejs/myorm",
+  "version": "1.0",
+  "optionalDependencies": {},
+  "dependencies": {
+	"redis":"*",
+	"http":"*",
+	"mysql":"*",
+	"mysql-queues":"*",
+	"async":"*",
+	"fs":"*"
+  },
+  "devDependencies": {
+    "request": "~2.11.4"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "test": "node test/run.js",
+    "clean": "rm test/tmp/*"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suddenzhou/nodejs/myorm.git"
+  },
+  "bugs": {
+    "url": "http://github.com/suddenzhou/nodejs/issues"
+  },
+  "dist": {
+    "shasum": "91363d59cc51ddca2be84ca0336ec0135606c155",
+    "tarball": "http://github.com/suddenzhou/nodejs/myorm-/myorm-1.0.tgz"
+  },
+  "_from": "myorm@",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "suddenzhou",
+    "email": "suddenzhou@163.com"
+  },
+  "maintainers": [
+    {
+      "name": "suddenzhou",
+      "email": "suddenzhou@163.com"
+    }
+  ],
+  "_shasum": "91363d59cc51ddca2be84ca0336ec0135606c155",
+  "_resolved": "http://github.com/suddenzhou/nodejs/myorm-/myorm-1.0.tgz"
+}
