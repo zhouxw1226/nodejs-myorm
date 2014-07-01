@@ -1,4 +1,4 @@
 nodejs-myorm
 ============
 
-dborm for nodejs 
+orm for nodejs 
